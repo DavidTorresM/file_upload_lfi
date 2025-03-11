@@ -20,7 +20,6 @@ out/
 *.log
 
 # Credenciales y configuración sensible
-application.properties
 application.yml
 
 # Dependencias descargadas
