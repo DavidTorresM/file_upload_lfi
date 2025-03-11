@@ -1,0 +1,62 @@
+# Git ignore para Spring Boot
+# Directorios y archivos generados por Maven/Gradle
+target/
+*.jar
+*.war
+*.ear
+
+# Archivos de configuración del IDE
+*.iml
+.idea/
+*.class
+*.project
+*.settings/
+*.vscode/
+
+# Archivos de compilación y logs
+out/
+/logs/
+/uploads/
+*.log
+
+# Credenciales y configuración sensible
+application.properties
+application.yml
+
+# Dependencias descargadas
+.mvn/
+.gradle/
+
+# Git ignore para PHP
+# Archivos de caché y logs
+cache/
+logs/
+*.log
+
+# Dependencias de Composer
+vendor/
+composer.lock
+
+# Configuración del entorno
+.env
+.env.local
+
+# Archivos del IDE y del sistema
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Archivos temporales
+*.bak
+*.tmp
+*.sql
+*.sqlite
+
+# Subidas y almacenamiento temporal
+uploads/
+storage/
+
+# Configuración específica del sistema operativo
+.DS_Store
+Thumbs.db
